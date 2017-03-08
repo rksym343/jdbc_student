@@ -9,6 +9,15 @@ public class Student {
 	private Date dob;
 	
 	
+	public Student() {
+	}
+	public Student(int studId, String name, String email, Date dob) {
+		super();
+		this.studId = studId;
+		this.name = name;
+		this.email = email;
+		this.dob = dob;
+	}
 	public int getStudId() {
 		return studId;
 	}
